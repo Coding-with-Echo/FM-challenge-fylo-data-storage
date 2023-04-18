@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="fylo">
+        <div class="card card__fylo">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </div>
+          <div class="card--icon">
+            <div class="icon">
+              <img src="./images/icon-document.svg" alt="" />
+            </div>
+            <div class="icon">
+              <img src="./images/icon-folder.svg" alt="" />
+            </div>
+            <div class="icon">
+              <img src="./images/icon-upload.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card card__storage">
+          <div class="storage__header">
+            <h1>You’ve used <span>815 GB</span> of your storage</h1>
+          </div>
+          <div class="storage__indicator">
+            <div class="storage__bar"></div>
+          </div>
+          <div class="storage__footer">
+            <p>0 GB</p>
+            <p>1000 GB</p>
+            <div class="storage__unused">
+              <p class="unused__number">185</p>
+              <p class="unused__gb">gb left</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
